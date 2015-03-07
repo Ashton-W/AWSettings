@@ -54,7 +54,7 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Subclass `AWSettings`. Add properties for your Settings bundle preferences.
 
 ## Installation
 
