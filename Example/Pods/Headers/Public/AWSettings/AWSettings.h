@@ -1,0 +1,1 @@
+../../../../../AWSettings/AWSettings.h

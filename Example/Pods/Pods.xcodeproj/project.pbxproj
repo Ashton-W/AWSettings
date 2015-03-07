@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0471A6D396E24D5D6F3E3F /* Pods-Tests-AWSettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AEA8781E44CC77BD76F552 /* Pods-Tests-AWSettings-dummy.m */; };
+		1EEAB607DBCD3D0871314F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230365854B568203EFD1E18 /* Foundation.framework */; };
+		257E875D31E620E88096585D /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33699284CF55848410AECA7 /* Pods-Tests-dummy.m */; };
+		2CCC122C123D931ACC692181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230365854B568203EFD1E18 /* Foundation.framework */; };
+		464D0ED91AAAA87D00D43B9D /* AWSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D0ED81AAAA87D00D43B9D /* AWSettings.m */; };
+		73F200414B36F6CB953520DB /* Pods-AWSettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96917C5505B63DCB62B97E21 /* Pods-AWSettings-dummy.m */; };
+		810C586333B2F8C127D2F9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230365854B568203EFD1E18 /* Foundation.framework */; };
+		A0FE8E2BA6FE602C74BC171B /* AWSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5334B137BA716744E68A63E0 /* AWSettings.h */; };
+		BF23BAD2DC28C1E83CB69419 /* Pods-AWSettings-AWSettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A8EF8B02B491B9ECBAD8A6 /* Pods-AWSettings-AWSettings-dummy.m */; };
+		E131DB9C651C050D09BD5988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230365854B568203EFD1E18 /* Foundation.framework */; };
+		EA039CBD2314E21F7E7F2D81 /* AWSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5334B137BA716744E68A63E0 /* AWSettings.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7424538ED3405DCDF7ACCB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E18645F64CC1A6ABF3C6648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE031683B8658A61F941FE7;
+			remoteInfo = "Pods-AWSettings-AWSettings";
+		};
+		D4703781D21BA2753A5717E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E18645F64CC1A6ABF3C6648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C19CDA98F1FFA57553A697C;
+			remoteInfo = "Pods-Tests-AWSettings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E1DD19D5087F1CCD464236 /* Pods-AWSettings-AWSettings-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSettings-AWSettings-Private.xcconfig"; sourceTree = "<group>"; };
+		1B265BD50B7D250C3428B374 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25AEA8781E44CC77BD76F552 /* Pods-Tests-AWSettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AWSettings-dummy.m"; path = "../Pods-Tests-AWSettings/Pods-Tests-AWSettings-dummy.m"; sourceTree = "<group>"; };
+		29A8EF8B02B491B9ECBAD8A6 /* Pods-AWSettings-AWSettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWSettings-AWSettings-dummy.m"; sourceTree = "<group>"; };
+		3BE720365B33B147C0292933 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D045A784F0E7F7C11C0720F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D2F06385728B70460BF2574 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EFEF53605721F30B9EA36AB /* Pods-AWSettings-AWSettings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSettings-AWSettings.xcconfig"; sourceTree = "<group>"; };
+		464D0ED81AAAA87D00D43B9D /* AWSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSettings.m; path = AWSettings/AWSettings.m; sourceTree = "<group>"; };
+		4CCEFD4226F842F40514AABD /* Pods-Tests-AWSettings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AWSettings.xcconfig"; path = "../Pods-Tests-AWSettings/Pods-Tests-AWSettings.xcconfig"; sourceTree = "<group>"; };
+		4DE7FE9D6A4C812C2A287D39 /* Pods-AWSettings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSettings.debug.xcconfig"; sourceTree = "<group>"; };
+		5334B137BA716744E68A63E0 /* AWSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSettings.h; path = AWSettings/AWSettings.h; sourceTree = "<group>"; };
+		63A2BC758CEFE75387B9DA9E /* libPods-Tests-AWSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AWSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CCDB3A2A52B56AF693B949 /* libPods-AWSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC3DF308357F183F867B6A6 /* Pods-AWSettings-AWSettings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWSettings-AWSettings-prefix.pch"; sourceTree = "<group>"; };
+		71B48F1BC9AFCF055C1DE07C /* Pods-Tests-AWSettings-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AWSettings-Private.xcconfig"; path = "../Pods-Tests-AWSettings/Pods-Tests-AWSettings-Private.xcconfig"; sourceTree = "<group>"; };
+		736465F0CE94EA74E2B634E0 /* Pods-AWSettings-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AWSettings-acknowledgements.markdown"; sourceTree = "<group>"; };
+		962D2EBCC9549BCED09D4983 /* Pods-AWSettings-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWSettings-environment.h"; sourceTree = "<group>"; };
+		96917C5505B63DCB62B97E21 /* Pods-AWSettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWSettings-dummy.m"; sourceTree = "<group>"; };
+		9DE7B904F80463DC70131945 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B9DCFAF34FB73A692F0A95A4 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		BFE406BE622279486BAC8899 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		C230365854B568203EFD1E18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CAFB3FEDFA8A7ABFE5AD2882 /* libPods-AWSettings-AWSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSettings-AWSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CEA30E2D240DC194CECCC8 /* Pods-AWSettings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSettings.release.xcconfig"; sourceTree = "<group>"; };
+		DE361D3A404604CE5B6864D7 /* Pods-Tests-AWSettings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AWSettings-prefix.pch"; path = "../Pods-Tests-AWSettings/Pods-Tests-AWSettings-prefix.pch"; sourceTree = "<group>"; };
+		E34AD142B077208D07B2D8DA /* Pods-AWSettings-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSettings-resources.sh"; sourceTree = "<group>"; };
+		E74D94012362D275748CF8FC /* Pods-AWSettings-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWSettings-acknowledgements.plist"; sourceTree = "<group>"; };
+		F33699284CF55848410AECA7 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		FC568502D3CFFA2FD73358DE /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7973FF286495B8627C2196C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810C586333B2F8C127D2F9A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B823B8110C636A128AF0C6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E131DB9C651C050D09BD5988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5CBB27EA670F736D88EF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCC122C123D931ACC692181 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDA3C5D072697FF243EF2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEAB607DBCD3D0871314F1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9BB08348F16B165060F075 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1EF4A94B76A55C07B067777 /* Pods-AWSettings */,
+				29BB0C59759F7317991A593C /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29BB0C59759F7317991A593C /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B265BD50B7D250C3428B374 /* Pods-Tests-acknowledgements.markdown */,
+				3D2F06385728B70460BF2574 /* Pods-Tests-acknowledgements.plist */,
+				F33699284CF55848410AECA7 /* Pods-Tests-dummy.m */,
+				BFE406BE622279486BAC8899 /* Pods-Tests-environment.h */,
+				B9DCFAF34FB73A692F0A95A4 /* Pods-Tests-resources.sh */,
+				FC568502D3CFFA2FD73358DE /* Pods-Tests.debug.xcconfig */,
+				9DE7B904F80463DC70131945 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		6DB3187F9C7D454150C3B6F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EFEF53605721F30B9EA36AB /* Pods-AWSettings-AWSettings.xcconfig */,
+				02E1DD19D5087F1CCD464236 /* Pods-AWSettings-AWSettings-Private.xcconfig */,
+				29A8EF8B02B491B9ECBAD8A6 /* Pods-AWSettings-AWSettings-dummy.m */,
+				6BC3DF308357F183F867B6A6 /* Pods-AWSettings-AWSettings-prefix.pch */,
+				4CCEFD4226F842F40514AABD /* Pods-Tests-AWSettings.xcconfig */,
+				71B48F1BC9AFCF055C1DE07C /* Pods-Tests-AWSettings-Private.xcconfig */,
+				25AEA8781E44CC77BD76F552 /* Pods-Tests-AWSettings-dummy.m */,
+				DE361D3A404604CE5B6864D7 /* Pods-Tests-AWSettings-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-AWSettings-AWSettings";
+			sourceTree = "<group>";
+		};
+		778EEB74D2F252C93F6C2E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CCDB3A2A52B56AF693B949 /* libPods-AWSettings.a */,
+				CAFB3FEDFA8A7ABFE5AD2882 /* libPods-AWSettings-AWSettings.a */,
+				3BE720365B33B147C0292933 /* libPods-Tests.a */,
+				63A2BC758CEFE75387B9DA9E /* libPods-Tests-AWSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B7ACB36A5466B68559F0AE2 = {
+			isa = PBXGroup;
+			children = (
+				3D045A784F0E7F7C11C0720F /* Podfile */,
+				8EB85AF56325A2BB58EFB425 /* Development Pods */,
+				8499309DEDD23748D6120078 /* Frameworks */,
+				778EEB74D2F252C93F6C2E97 /* Products */,
+				0E9BB08348F16B165060F075 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8499309DEDD23748D6120078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E959F3013D2EBBF6EA196E4D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EB85AF56325A2BB58EFB425 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90F9F98456DBFFC4891F9EE9 /* AWSettings */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90F9F98456DBFFC4891F9EE9 /* AWSettings */ = {
+			isa = PBXGroup;
+			children = (
+				5334B137BA716744E68A63E0 /* AWSettings.h */,
+				464D0ED81AAAA87D00D43B9D /* AWSettings.m */,
+				6DB3187F9C7D454150C3B6F8 /* Support Files */,
+			);
+			name = AWSettings;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E1EF4A94B76A55C07B067777 /* Pods-AWSettings */ = {
+			isa = PBXGroup;
+			children = (
+				736465F0CE94EA74E2B634E0 /* Pods-AWSettings-acknowledgements.markdown */,
+				E74D94012362D275748CF8FC /* Pods-AWSettings-acknowledgements.plist */,
+				96917C5505B63DCB62B97E21 /* Pods-AWSettings-dummy.m */,
+				962D2EBCC9549BCED09D4983 /* Pods-AWSettings-environment.h */,
+				E34AD142B077208D07B2D8DA /* Pods-AWSettings-resources.sh */,
+				4DE7FE9D6A4C812C2A287D39 /* Pods-AWSettings.debug.xcconfig */,
+				D1CEA30E2D240DC194CECCC8 /* Pods-AWSettings.release.xcconfig */,
+			);
+			name = "Pods-AWSettings";
+			path = "Target Support Files/Pods-AWSettings";
+			sourceTree = "<group>";
+		};
+		E959F3013D2EBBF6EA196E4D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C230365854B568203EFD1E18 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08D6E2C81197439BC1488A6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FE8E2BA6FE602C74BC171B /* AWSettings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189613FCB22718A38DECF4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA039CBD2314E21F7E7F2D81 /* AWSettings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C19CDA98F1FFA57553A697C /* Pods-Tests-AWSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47444C72B1086842671673B7 /* Build configuration list for PBXNativeTarget "Pods-Tests-AWSettings" */;
+			buildPhases = (
+				6F576FA7B59505A831AA45BB /* Sources */,
+				CB5CBB27EA670F736D88EF47 /* Frameworks */,
+				F189613FCB22718A38DECF4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-AWSettings";
+			productName = "Pods-Tests-AWSettings";
+			productReference = 63A2BC758CEFE75387B9DA9E /* libPods-Tests-AWSettings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A33584F5368BEE28E10CE646 /* Pods-AWSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA8909AAF5AF01528FF0C09 /* Build configuration list for PBXNativeTarget "Pods-AWSettings" */;
+			buildPhases = (
+				B059C5C1AE473096E91BE90B /* Sources */,
+				EDDA3C5D072697FF243EF2BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5946C197D89ED471FEFB4181 /* PBXTargetDependency */,
+			);
+			name = "Pods-AWSettings";
+			productName = "Pods-AWSettings";
+			productReference = 64CCDB3A2A52B56AF693B949 /* libPods-AWSettings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFE031683B8658A61F941FE7 /* Pods-AWSettings-AWSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09E47CEE2EBC2CF3461099D /* Build configuration list for PBXNativeTarget "Pods-AWSettings-AWSettings" */;
+			buildPhases = (
+				A014A823156E234506191651 /* Sources */,
+				7973FF286495B8627C2196C6 /* Frameworks */,
+				08D6E2C81197439BC1488A6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AWSettings-AWSettings";
+			productName = "Pods-AWSettings-AWSettings";
+			productReference = CAFB3FEDFA8A7ABFE5AD2882 /* libPods-AWSettings-AWSettings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F43C90A142C2EAE99EC4464A /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CB2E2E24E9678D3165AF43 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				D17CEC8F7A6DEA7A8574215E /* Sources */,
+				B823B8110C636A128AF0C6FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFEF98688FF9468BD70FFA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 3BE720365B33B147C0292933 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E18645F64CC1A6ABF3C6648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = F385640AEBCC82406110F601 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B7ACB36A5466B68559F0AE2;
+			productRefGroup = 778EEB74D2F252C93F6C2E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33584F5368BEE28E10CE646 /* Pods-AWSettings */,
+				EFE031683B8658A61F941FE7 /* Pods-AWSettings-AWSettings */,
+				F43C90A142C2EAE99EC4464A /* Pods-Tests */,
+				6C19CDA98F1FFA57553A697C /* Pods-Tests-AWSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F576FA7B59505A831AA45BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0471A6D396E24D5D6F3E3F /* Pods-Tests-AWSettings-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A014A823156E234506191651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF23BAD2DC28C1E83CB69419 /* Pods-AWSettings-AWSettings-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B059C5C1AE473096E91BE90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D0ED91AAAA87D00D43B9D /* AWSettings.m in Sources */,
+				73F200414B36F6CB953520DB /* Pods-AWSettings-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17CEC8F7A6DEA7A8574215E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257E875D31E620E88096585D /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5946C197D89ED471FEFB4181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AWSettings-AWSettings";
+			target = EFE031683B8658A61F941FE7 /* Pods-AWSettings-AWSettings */;
+			targetProxy = 7424538ED3405DCDF7ACCB08 /* PBXContainerItemProxy */;
+		};
+		DCFEF98688FF9468BD70FFA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-AWSettings";
+			target = 6C19CDA98F1FFA57553A697C /* Pods-Tests-AWSettings */;
+			targetProxy = D4703781D21BA2753A5717E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CDE5DB437D0DC75695EC890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC568502D3CFFA2FD73358DE /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		486D99163563C495C1456A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE7B904F80463DC70131945 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62740CEFD3323ED9AE496A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE7FE9D6A4C812C2A287D39 /* Pods-AWSettings.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		633E6867C64EC8F9571E782B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		759D8D8C2C35051EE38054D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E1DD19D5087F1CCD464236 /* Pods-AWSettings-AWSettings-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AWSettings-AWSettings/Pods-AWSettings-AWSettings-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF704CAABBA76570F56E9150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B48F1BC9AFCF055C1DE07C /* Pods-Tests-AWSettings-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AWSettings/Pods-Tests-AWSettings-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5949467E81F1A7A228D497A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B48F1BC9AFCF055C1DE07C /* Pods-Tests-AWSettings-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AWSettings/Pods-Tests-AWSettings-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E70552C4C2105F3E027A0695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E1DD19D5087F1CCD464236 /* Pods-AWSettings-AWSettings-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AWSettings-AWSettings/Pods-AWSettings-AWSettings-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA448F4AA7C716F3F94D5DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CEA30E2D240DC194CECCC8 /* Pods-AWSettings.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2A7BA832B7B2EF1CD0610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47444C72B1086842671673B7 /* Build configuration list for PBXNativeTarget "Pods-Tests-AWSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5949467E81F1A7A228D497A /* Debug */,
+				BF704CAABBA76570F56E9150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CB2E2E24E9678D3165AF43 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDE5DB437D0DC75695EC890 /* Debug */,
+				486D99163563C495C1456A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09E47CEE2EBC2CF3461099D /* Build configuration list for PBXNativeTarget "Pods-AWSettings-AWSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D8D8C2C35051EE38054D6 /* Debug */,
+				E70552C4C2105F3E027A0695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA8909AAF5AF01528FF0C09 /* Build configuration list for PBXNativeTarget "Pods-AWSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62740CEFD3323ED9AE496A09 /* Debug */,
+				EA448F4AA7C716F3F94D5DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F385640AEBCC82406110F601 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633E6867C64EC8F9571E782B /* Debug */,
+				FF2A7BA832B7B2EF1CD0610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E18645F64CC1A6ABF3C6648 /* Project object */;
+}
