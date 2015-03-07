@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AWSettings', :exclusive => true do
+  pod "AWSettings", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "AWSettings", :path => "../"
+
+  
+end
