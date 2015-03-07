@@ -1,0 +1,14 @@
+PODS:
+  - AWSettings (0.1.0)
+
+DEPENDENCIES:
+  - AWSettings (from `../`)
+
+EXTERNAL SOURCES:
+  AWSettings:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AWSettings: d2abec9a3e79b150e06c0a8b39f263f74a096f16
+
+COCOAPODS: 0.35.0

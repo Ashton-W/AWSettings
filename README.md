@@ -1,6 +1,6 @@
 # AWSettings
 
-[![CI Status](http://img.shields.io/travis/Ashton Williams/AWSettings.svg?style=flat)](https://travis-ci.org/Ashton Williams/AWSettings)
+[![CI Status](http://img.shields.io/travis/Ashton-W/AWSettings.svg?style=flat)](https://travis-ci.org/Ashton Williams/AWSettings)
 [![Version](https://img.shields.io/cocoapods/v/AWSettings.svg?style=flat)](http://cocoadocs.org/docsets/AWSettings)
 [![License](https://img.shields.io/cocoapods/l/AWSettings.svg?style=flat)](http://cocoadocs.org/docsets/AWSettings)
 [![Platform](https://img.shields.io/cocoapods/p/AWSettings.svg?style=flat)](http://cocoadocs.org/docsets/AWSettings)
@@ -20,7 +20,8 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Ashton Williams, AJWilliams@odecee.com.au
+Ashton Williams   
+@Ashton-W on GitHub
 
 ## License
 
