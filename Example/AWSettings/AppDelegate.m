@@ -9,9 +9,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = self;
     [self.window makeKeyAndVisible];
-    
+
     NSLog(@"Hello World!");
-    
+
     return YES;
 }
 
@@ -20,14 +20,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     self.label = [[UILabel alloc] initWithFrame:self.view.bounds];
     self.label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:self.label];
-    
+
     [[Settings sharedSettings] addObserver:self
                                 forKeyPath:@"name"
-                                   options:(NSKeyValueObservingOptions)(NSKeyValueObservingOptionInitial|NSKeyValueObservingOptionNew)
+                                   options:(NSKeyValueObservingOptions)(NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew)
                                    context:0];
 }
 

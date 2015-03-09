@@ -17,32 +17,29 @@
 
 #pragma mark - Class methods
 
-+ (void)load
-{
-    if (self != [AWSettings class]) {
-        //only load subclasses
-        // load defaults immediately
-        [[self sharedSettings] loadDefaults];
-    }
-}
-
 + (void)initialize
 {
-    if (self != [AWSettings class]) {
+    if (self == [AWSettings class]) {
         // only load subclasses
-        // load defaults immediately
-        [[self sharedSettings] loadDefaults];
+        return;
     }
+
+    // load defaults immediately
+    [[self sharedSettings] loadDefaults];
 }
 
 + (instancetype)sharedSettings
 {
+    if (self == [AWSettings class]) {
+        return nil;
+    }
+
     static id _shared = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _shared = [[self alloc] init];
     });
-    
+
     return _shared;
 }
 
@@ -52,10 +49,10 @@
     if (!self) {
         return nil;
     }
-    
+
     _userDefaults = userDefaults;
     [self observeNotifications];
-    
+
     return self;
 }
 
@@ -93,12 +90,12 @@
     if (!path) {
         return;
     }
-    
+
     NSDictionary *defaults = [NSDictionary dictionaryWithContentsOfFile:path];
     if (!defaults) {
         return;
     }
-    
+
     [self.userDefaults registerDefaults:defaults];
 }
 
@@ -112,21 +109,19 @@
 {
     NSString *settingsBundlePath = [[NSBundle mainBundle] pathForResource:@"Settings" ofType:@"bundle"];
     NSBundle *settingsBundle = [NSBundle bundleWithPath:settingsBundlePath];
-    
+
     NSString *path = [settingsBundle pathForResource:file ofType:@"plist"];
     NSDictionary *settings = [NSDictionary dictionaryWithContentsOfFile:path];
     NSArray *preferences = [settings objectForKey:@"PreferenceSpecifiers"];
-    
+
     NSMutableDictionary *defaults = [NSMutableDictionary dictionary];
-    
+
     for (NSDictionary *preference in preferences) {
-        
         NSString *type = preference[@"Type"];
         if ([type isEqualToString:@"PSChildPaneSpecifier"]) {
             NSString *file = preference[@"File"];
             [defaults addEntriesFromDictionary:[self defaultsFromSettingsFile:file]];
-        }
-        else {
+        } else {
             NSString *key = preference[@"Key"];
             id defaultValue = preference[@"DefaultValue"];
             if ([key length] > 0 && defaultValue) {
@@ -134,7 +129,7 @@
             }
         }
     }
-    
+
     return defaults;
 }
 
@@ -147,6 +142,11 @@
                       selector:@selector(applicationDidBecomeActiveNotification:)
                           name:UIApplicationDidBecomeActiveNotification
                         object:nil];
+
+    [notifications addObserver:self
+                      selector:@selector(userDefaultsDidChangeNotification:)
+                          name:NSUserDefaultsDidChangeNotification
+                        object:nil];
 }
 
 - (void)applicationDidBecomeActiveNotification:(NSNotification *)notification
@@ -155,24 +155,33 @@
     [self updateProperties];
 }
 
+- (void)userDefaultsDidChangeNotification:(NSNotification *)notification
+{
+    NSUserDefaults *userDefaults = (NSUserDefaults *)notification.object;
+}
+
+#pragma mark -
+
 - (void)updateProperties
 {
     NSDictionary *updatedDefaults = [self.userDefaults dictionaryRepresentation];
-    
+
     for (NSString *key in updatedDefaults.allKeys) {
         NSString *propertyKey = [[self class] propertyKeysBySettingsKey][key];
         propertyKey = propertyKey ?: key;
-        
+
         NSString *prefix = [[self class] settingsKeysPrefix];
         if (prefix) {
             propertyKey = [propertyKey stringByReplacingOccurrencesOfString:prefix withString:@""];
-            propertyKey = [NSString stringWithFormat:@"%@%@", [[propertyKey substringToIndex:1] lowercaseString], [propertyKey substringFromIndex:1]];
+            propertyKey = [NSString stringWithFormat:@"%@%@",
+                                    [[propertyKey substringToIndex:1] lowercaseString],
+                                    [propertyKey substringFromIndex:1]];
         }
-        
+
         if ([self respondsToSelector:NSSelectorFromString(propertyKey)]) {
             id value = [self valueForKey:propertyKey];
             id newValue = updatedDefaults[key];
-            
+
             if (![value isEqual:newValue]) {
                 [self setValue:newValue forKey:propertyKey];
             }

@@ -1,0 +1,10 @@
+---
+BasedOnStyle: WebKit
+Language: Cpp
+BreakBeforeBraces: Linux
+PointerBindsToType: false
+ColumnLimit: 0
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+MaxEmptyLinesToKeep: 2
