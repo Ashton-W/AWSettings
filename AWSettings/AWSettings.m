@@ -34,13 +34,24 @@
         return nil;
     }
 
-    static id _shared = nil;
+    static NSMutableDictionary *instances;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _shared = [[self alloc] init];
+         instances = [NSMutableDictionary dictionary];
     });
 
-    return _shared;
+    id instance = nil;
+
+    @synchronized(self)
+    {
+        instance = instances[NSStringFromClass(self)];
+        if (!instance) {
+            instance = [[self alloc] init];
+            instances[NSStringFromClass(self)] = instance;
+        }
+    }
+
+    return instance;
 }
 
 - (instancetype)initWithUserDefaults:(NSUserDefaults *)userDefaults
@@ -138,9 +149,10 @@
 - (void)observeNotifications
 {
     NSNotificationCenter *notifications = [NSNotificationCenter defaultCenter];
+
     [notifications addObserver:self
-                      selector:@selector(applicationDidBecomeActiveNotification:)
-                          name:UIApplicationDidBecomeActiveNotification
+                      selector:@selector(applicationWillEnterForegroundNotification:)
+                          name:UIApplicationWillEnterForegroundNotification
                         object:nil];
 
     [notifications addObserver:self
@@ -149,7 +161,7 @@
                         object:nil];
 }
 
-- (void)applicationDidBecomeActiveNotification:(NSNotification *)notification
+- (void)applicationWillEnterForegroundNotification:(NSNotification *)notification
 {
     [self.userDefaults synchronize];
     [self updateProperties];
@@ -157,7 +169,7 @@
 
 - (void)userDefaultsDidChangeNotification:(NSNotification *)notification
 {
-    NSUserDefaults *userDefaults = (NSUserDefaults *)notification.object;
+    [self updateProperties];
 }
 
 #pragma mark -
